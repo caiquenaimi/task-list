@@ -44,42 +44,38 @@ button {
     border: none;
 }
 
-svg {
-    fill:  #ffff;
+#list {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
-.task {
+#list li {
     background-color: #3f3f3f;
     padding: 1.0rem ;
     color: white;
-    display: flex;
-    align-items: center;
-    margin: 15px 0px;
     border-radius: 5px;
     width: 100%;
+    margin: 10px 0px;
 }
 
-#edit {
-    background-color: #007bff;
+svg {
+    fill: #f0f0f0;
 }
 
-#remove {
-    background-color: red;
-}
-
-.buttons {
-    justify-content: space-between;
-}
-
-.task p {
+span {
     width: 500px;
 }
 
-.task button {
-    border-radius: 9898989898px;
+.verifyed {
     background-color: #181818;
+    border-radius: 9898989898px;
 }
 
-#taskDone {
+.taskDone {
+    font-weight: bold;
     background-color: green;
+    border-radius: 9898989898px;
 }
