@@ -5,3 +5,39 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
+
+body {
+    background-color: #181818;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a2a2a;
+}
+
+#input-field {
+    display: flex;
+}
+
+input {
+    background-color: #3f3f3f;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+#plus-icon {
+    width: 25px;
+    height: 25px;
+    margin: 0px 5px;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #3f3f3f;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 20px;
+}
