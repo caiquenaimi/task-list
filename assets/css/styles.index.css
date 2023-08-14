@@ -79,3 +79,7 @@ svg {
     border-radius: 9898989898px;
     background-color: #181818;
 }
+
+#taskDone {
+    background-color: green;
+}
