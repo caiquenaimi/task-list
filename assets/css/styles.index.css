@@ -1,85 +1,65 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Raleway', sans-serif;
 }
 
-
 body {
-    background-color: #181818;
+    background-color:#181818;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20%;
-}
-
-#div-box,
-#results {
     background-color: #2a2a2a;
+    padding: 1.5rem;
+}
+
+section {
     display: flex;
-    padding: 1.0rem;
+    align-items: center;
+    flex-direction: column;
 }
 
-input {
+#input {
+    display: flex;
+    
+}
+
+#plus {
     background-color: #3f3f3f;
-    border-radius: 8px;
-    padding: 4px;
-    border: none;
-    width: 300px;
-    color: white;
+    margin-left: 5px;
+    border-radius: 5px;
 }
-
-#plus-icon {
-    width: 20px;
-    height: 20px;
-    margin: 0px 5px;
-    border-radius: 8px;
+#input input {
+    background-color: #3f3f3f;
     border: none;
+    padding: 1.0rem;
+    color: #f0f0f0;
+    border-radius: 5px;
 }
 
 button {
-    background-color: #3f3f3f;
     cursor: pointer;
-    border-radius: 4px;
-    margin-left: 20px;
+    padding: 1.0rem;
+    background-color: transparent;
     border: none;
 }
 
-p {
+.task {
+    background-color: #3f3f3f;
+    padding: 1.0rem ;
     color: white;
-}
-
-#results, .task {
     display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    border-radius: 5px;
+    width: 100%;
 }
 
-#verify {
-    width: 20px;
-    height: 20px;
+.task p {
+    width: 500px;
 }
 
-#trash {
-    width: 20px;
-    height: 20px;
-}
-
-.hidden {
-    display: none;
-}
-
-#verify img{
-    width: 20px;
-    height: 20px;
-}
-
-
-#trash img {
-    width: 20px;
-    height: 20px;
+.task button {
+    border-radius: 9898989898px;
+    background-color: #181818;
 }
