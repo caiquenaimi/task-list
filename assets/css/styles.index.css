@@ -19,7 +19,8 @@ main {
     margin-top: 20%;
 }
 
-#div-box , #results {
+#div-box,
+#results {
     background-color: #2a2a2a;
     display: flex;
     padding: 1.0rem;
@@ -48,4 +49,12 @@ button {
     border-radius: 4px;
     margin-left: 20px;
     border: none;
+}
+
+p {
+    color: white;
+}
+
+#verify {
+    
 }
