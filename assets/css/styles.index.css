@@ -55,6 +55,31 @@ p {
     color: white;
 }
 
+#results, .task {
+    display: flex;
+}
+
 #verify {
-    
+    width: 20px;
+    height: 20px;
+}
+
+#trash {
+    width: 20px;
+    height: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#verify img{
+    width: 20px;
+    height: 20px;
+}
+
+
+#trash img {
+    width: 20px;
+    height: 20px;
 }
