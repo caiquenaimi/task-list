@@ -79,3 +79,7 @@ span {
     background-color: green;
     border-radius: 9898989898px;
 }
+
+li {
+    list-style: none;
+}
