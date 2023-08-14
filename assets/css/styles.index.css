@@ -44,6 +44,10 @@ button {
     border: none;
 }
 
+svg {
+    fill:  #ffff;
+}
+
 .task {
     background-color: #3f3f3f;
     padding: 1.0rem ;
@@ -53,6 +57,14 @@ button {
     margin: 15px 0px;
     border-radius: 5px;
     width: 100%;
+}
+
+#edit {
+    background-color: #007bff;
+}
+
+#remove {
+    background-color: red;
 }
 
 .task p {
