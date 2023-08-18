@@ -1,3 +1,4 @@
+
 class Task {
     constructor(id, title, status) {
         this.id = id;
@@ -17,7 +18,6 @@ class TaskList {
 
     editTask(id) {
         let msg = this.tasks.filter((task) => task.id == id);
-        this.tasks = this.tasks.filter((task) => task.id !== id);
         console.log(msg);
     }
 
@@ -33,7 +33,9 @@ class TaskList {
         });
 
         document.getElementById(id + '-button').classList.toggle('taskDone')
+
     }
+
 }
 
 const veryBigTaskList = new TaskList();
@@ -45,7 +47,9 @@ function createTask() {
 
     veryBigTaskList.addTask(task);
 
-    renderTasks()
+    renderTasks();
+    cleanField();
+
 }
 
 
@@ -89,4 +93,8 @@ function doneTask(id) {
 function editTask(id) {
     veryBigTaskList.editTask(id);
     renderTasks();
+}
+
+function cleanField() {
+    document.getElementById("inp").value = "";
 }
